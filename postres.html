@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script defer src="./main.js"></script>
+    <title>Postres</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html"
+          ><img src="imagenes/logo.jpg" alt="Postres de ari" width="200PX"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <a href="postres.html">
+            <li>Postres</li>
+          </a>
+          <a href="imagenes.html">
+            <li>Referencias</li>
+          </a>
+          <a href="recetario.html">
+            <li>Recetario</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="imagenes/carlota.jpg"
+              alt="carlota"
+              width="60%"
+              id="imagenesdepostres"
+            />
+            <h1 id="postres">Carlota de limon</h1>
+            <p id="postres2">Precio individual: 15 MXN</p>
+            <p id="postres2">Docena: 120 MXN</p>
+            <p id="postres2">M-Docena: 75 MXN</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="imagenes/cupcakes.jpg"
+              alt="cupcakes"
+              width="60%"
+              id="imagenesdepostres"
+            />
+            <h1 id="postres">Cupcakes</h1>
+            <p id="postres2">Precio individual: 20 MXN</p>
+            <p id="postres2">Docena: 180 MXN</p>
+            <p id="postres2">M-Docena: 100 MXN</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="imagenes/cake pops.jpg"
+              alt="cakepops"
+              width="60%"
+              id="imagenesdepostres"
+            />
+            <h1 id="postres">Cake Pops</h1>
+            <p id="postres2">Precio individual: 10 MXN</p>
+            <p id="postres2">Docena: 95 MXN</p>
+            <p id="postres2">M-Docena: 50 MXN</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="imagenes/galletasm.jpg"
+              alt="galletas"
+              width="60%"
+              id="imagenesdepostres"
+            />
+            <h1 id="postres3">Galletitas de mantequilla</h1>
+            <p id="postres2">Docena: 100 MXN</p>
+            <p id="postres2">M-Docena: 60 MXN</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="imagenes/pan de platano.jpg"
+              alt="panp"
+              width="60%"
+              id="imagenesdepostres"
+            />
+            <h1 id="postres">Pan de platano</h1>
+            <p id="postres2">Panque Completo: 150 MXN</p>
+            <p id="postres2">Rebanadas: 20 MXN</p>
+            <p id="postres2">C. Glaseado: 160 MXN</p>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="imagenes/pan de zanahoria.jpg"
+              alt="panz"
+              width="60%"
+              id="imagenesdepostres"
+            />
+            <h1 id="postres">Pan de zanahoria</h1>
+            <p id="postres2">Panque completo: 140 MXN</p>
+            <p id="postres2">Rebanada: 18 MXN</p>
+            <p id="postres2">C. Buttercream de queso: 165 MXN</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div>
+      <img src="imagenes/pasteles.png" alt="pasteles" width="100%" />
+    </div>
+    <div class="contenedor">
+      <div class="noticias">
+        <h1>Rellenos de pastel</h1>
+        <div id="contenido">
+          <ul>
+            <li>chocolate</li>
+            <li>frutos rojos</li>
+            <li>cheesecake</li>
+            <li>crema pastelera</li>
+            <li>fruta a elegir</li>
+          </ul>
+        </div>
+        <button
+          onclick='muestra_oculta("contenido")'
+          class="btn btn-primary"
+          form="contenido"
+        >
+          +
+        </button>
+      </div>
+      <div class="noticias">
+        <h1>Sabor de pan</h1>
+        <div id="contenido2">
+          <ul>
+            <li>Vainilla</li>
+            <li>fresa</li>
+            <li>chocolate</li>
+            <li>red velvet</li>
+            <li>3 leches</li>
+          </ul>
+        </div>
+        <button
+          onclick='muestra_oculta("contenido2")'
+          class="btn btn-primary"
+          form="contenido2"
+        >
+          +
+        </button>
+      </div>
+      <div class="noticias">
+        <h1>tooping o extras (costo extra)</h1>
+        <div id="contenido3">
+          <ul>
+            <li>Betun de quesito (relleno y cubierta)</li>
+            <li>Galletas oreo</li>
+            <li>Nuez</li>
+            <li>Almendras</li>
+            <li>De 2 a 3 rellenos diferentes</li>
+          </ul>
+        </div>
+        <button
+          onclick='muestra_oculta("contenido3")'
+          class="btn btn-primary"
+          form="contenido3"
+        >
+          +
+        </button>
+      </div>
+    </div>
+    <footer>
+      <div>
+        <a href="https://www.facebook.com/xridxi"
+          ><img src="imagenes/facebook.png" alt="facebook" width="40px"
+        /></a>
+        <a href="https://www.instagram.com/xridxi/"
+          ><img src="imagenes/insta.png" alt="instagram" width="32px"
+        /></a>
+        <a href="https://goo.gl/maps/RDw7anXy7y6irRUX6"
+          ><img src="imagenes/google maps.png" alt="direccion" width="45px"
+        /></a>
+        <img src="imagenes/whats.png" alt="whatsap" width="33px" />
+      </div>
+      <div>
+        <p>Contacto: 664 751 4818</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Edu+SA+Beginner&family=VT323&display=swap');
+
+body {
+    background-color: #f8d1ea !important;
+}
+
+header {
+    width: 100%;
+    background-color: #ebc0db;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+    margin: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 20px; 
+}
+
+#postres {
+    font-family: 'Edu SA Beginner', cursive;
+    margin-top: 20px;
+}
+
+#postres2 {
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+#postres3 {
+    font-family: 'Edu SA Beginner', cursive;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#imagenesdepostres {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    background-color: #ebc0db;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+nav p {
+    font-family: 'Courgette', cursive;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mainimagenes {
+    font-family: 'Courgette', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#mainparrafo {
+    font-family: 'Edu SA Beginner', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    border: solid 1px hsl(136, 97%, 20%);
+    background-color: hsl(136, 97%, 30%);
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:hover {
+    box-shadow: none;
+    border: solid 1px hsl(136, 97%, 30%);
+    background-color: hsl(136, 97%, 20%);
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .noticias {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+  }
+  .noticias h1 {
+    font-size: 25px;
+    color: rgb(7, 29, 39);
+    text-align: justify;
+    font-family: 'Courgette', cursive;
+  }
+  .noticias li {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Edu SA Beginner', cursive;
+  }
+
+  .imagenescarrusel {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+  }
+
+.carrusel {
+    margin: 40px;
+}
+
+.parrafos {
+    font-family: 'Edu SA Beginner', cursive;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.Recetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recetario {
+    margin: 10px;
+}
