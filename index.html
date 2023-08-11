@@ -11,7 +11,8 @@
       crossorigin="anonymous"
     />
     <script defer src="./main.js"></script>
-    <title>Tarea: Postres Ari</title>
+    <link rel="icon" href="imagenes/logoo.png">
+    <title>Tarea Pagina propia</title>
   </head>
 
   <body>
@@ -21,19 +22,26 @@
           ><img src="imagenes/logo.jpg" alt="Postres de ari" width="200PX"
         /></a>
       </div>
-      <nav>
-        <ul>
-          <a href="postres.html">
-            <li>Postres</li>
-          </a>
-          <a href="imagenes.html">
-            <li>Referencias</li>
-          </a>
-          <a href="recetario.html">
-            <li>Recetario</li>
-          </a>
-        </ul>
-      </nav>
+      <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="postres.html">Postres</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="imagenes.html">Referencias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recetario.html">Recetario</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
     </header>
     <main>
       <div
@@ -109,49 +117,51 @@
         </button>
       </div>
     </main>
-    <div class="contenedor">
-      <div class="noticias">
-        <h1>Primerizo?</h1>
-        <div>
-          <p class="parrafos">
-            Todos sabemos la dificultad que existe al hornear por primera vez,
-            preparar mezclas, encontrar recetas que se adapten a cada uno es
-            difícil. Pero aquí en la cocina de Ari te compartiré un recetario
-            sencillo para empezar. Haz clic en la imagen de abajo o puedes
-            deslizar al menú de arriba y seleccionar el apartado.
-          </p>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 noticias">
+          <h1>Primerizo?</h1>
           <div>
-            <a href="recetario.html"><img src="imagenes/recetario.jpg" alt="recetario" width="100%" /></a>
+            <p class="parrafos">
+              Todos sabemos la dificultad que existe al hornear por primera vez,
+              preparar mezclas, encontrar recetas que se adapten a cada uno es
+              difícil. Pero aquí en la cocina de Ari te compartiré un recetario
+              sencillo para empezar. Haz clic en la imagen de abajo o puedes
+              deslizar al menú de arriba y seleccionar el apartado.
+            </p>
+            <div>
+              <a href="recetario.html"><img src="imagenes/recetario.jpg" alt="recetario" width="100%" /></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="noticias">
-        <h1>Te interesa algun postre?</h1>
-        <div>
-          <p class="parrafos">
-            Postres hechos con los mejores ingredientes, deliciosos y caseros
-            son perfectos para todo paladar, hasta el más exigente. Puedes
-            acceder dando clic a la imagen de abajo para revisar mi catálogo,
-            para cualquier postre personalizado o especial, siempre puedes
-            encontrar mi contacto en la parte de abajo de la página.
-          </p>
+        <div class="col-md-4 noticias">
+          <h1>Te interesa algun postre?</h1>
           <div>
-            <a href="postres.html"><img src="imagenes/catalogo.jpg" alt="recetario" width="100%" /></a>
+            <p class="parrafos">
+              Postres hechos con los mejores ingredientes, deliciosos y caseros
+              son perfectos para todo paladar, hasta el más exigente. Puedes
+              acceder dando clic a la imagen de abajo para revisar mi catálogo,
+              para cualquier postre personalizado o especial, siempre puedes
+              encontrar mi contacto en la parte de abajo de la página.
+            </p>
+            <div>
+              <a href="postres.html"><img src="imagenes/catalogo.jpg" alt="recetario" width="100%" /></a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="noticias">
-        <h1>Buscas un servicio de postres?</h1>
-        <div>
-          <p class="parrafos">
-            Siempre ofreciendo servicio de mi cocina a tu mesa, eventos sociale
-            y demás, con las mejores referencias y una excelente calidad de
-            servicio al cliente. Si gustas revisar mis referencias, te dejo
-            verlas dándole clic a la imagen de abajo para que puedas saber la
-            calidad en el trabajo que ofrezco.
-          </p>
+        <div class="col-md-4 noticias">
+          <h1>Buscas un servicio de postres?</h1>
           <div>
-            <a href="imagenes.html"><img src="imagenes/referencias.jpg" alt="recetario" width="100%" /></a>
+            <p class="parrafos">
+              Siempre ofreciendo servicio de mi cocina a tu mesa, eventos sociale
+              y demás, con las mejores referencias y una excelente calidad de
+              servicio al cliente. Si gustas revisar mis referencias, te dejo
+              verlas dándole clic a la imagen de abajo para que puedas saber la
+              calidad en el trabajo que ofrezco.
+            </p>
+            <div>
+              <a href="imagenes.html"><img src="imagenes/referencias.jpg" alt="recetario" width="100%" /></a>
+            </div>
           </div>
         </div>
       </div>
